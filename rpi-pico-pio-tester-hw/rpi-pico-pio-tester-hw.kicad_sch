@@ -1118,7 +1118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RaspberryPi_Pico"
+		(property "Value" "Pico_1"
 			(at 69.4533 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,15 +1129,15 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_SMD_HandSolder"
-			(at 67.31 133.35 0)
-			(hide yes)
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
+			(at 69.4533 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
@@ -1295,6 +1295,211 @@
 			(project "rpi-pico-pio-tester-hw"
 				(path "/82e98b6c-2452-4651-8f74-cf14c3f4684c"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:RaspberryPi_Pico_Debug")
+		(at 165.1 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a15c1ff-7202-4451-aeb8-32c7f876cfb5")
+		(property "Reference" "A2"
+			(at 167.2433 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pico_2"
+			(at 167.2433 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
+			(at 167.2433 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+			(at 165.1 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+			(at 165.1 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "c6d311e7-3ed3-4883-9318-e9c9a10cd005")
+		)
+		(pin "24"
+			(uuid "e69431ef-21d4-4a8a-bdbf-077ae39d18f4")
+		)
+		(pin "22"
+			(uuid "709dd36f-e38b-46eb-ae19-8c788c768393")
+		)
+		(pin "21"
+			(uuid "2d742861-a2c9-4414-9902-c24e28846282")
+		)
+		(pin "16"
+			(uuid "ac86c316-c7af-4d7a-b352-e23aeabab0f9")
+		)
+		(pin "14"
+			(uuid "8a9950c1-49dc-4a65-acee-213de05ae9da")
+		)
+		(pin "5"
+			(uuid "cf8bf6db-f072-4a34-9446-b0c3c8ae538b")
+		)
+		(pin "13"
+			(uuid "cc5287e4-94d9-4739-a6ce-b0c7d175285c")
+		)
+		(pin "23"
+			(uuid "09521aaa-f21d-41b7-9398-82cb1a177e73")
+		)
+		(pin "D3"
+			(uuid "ca0c967f-2af9-4a85-a9ae-276485850a2c")
+		)
+		(pin "6"
+			(uuid "d8d4e15b-cea5-4295-bd9e-07af98d5e961")
+		)
+		(pin "17"
+			(uuid "0e6a822a-caf3-4e45-aa60-018c7c559029")
+		)
+		(pin "18"
+			(uuid "6f118ef8-de4c-4813-b3d1-64c95fafa02f")
+		)
+		(pin "11"
+			(uuid "289050e1-015a-4969-91ce-140748bea6b1")
+		)
+		(pin "9"
+			(uuid "f9d64479-b2e6-4942-9e9b-7baa54b20770")
+		)
+		(pin "1"
+			(uuid "79214682-e679-4fa1-98c6-b30d7297904c")
+		)
+		(pin "3"
+			(uuid "dfb37789-e7db-495b-9122-f06865a5cec3")
+		)
+		(pin "4"
+			(uuid "7acdfc7c-4177-4468-9bbe-0879d90d073b")
+		)
+		(pin "2"
+			(uuid "c1b3b846-8017-4686-a1a8-63b7a73858c5")
+		)
+		(pin "20"
+			(uuid "224d8038-d9e6-4071-ade4-b686ae7e3e18")
+		)
+		(pin "15"
+			(uuid "c888456a-1294-4981-9946-e9bf44c4a18e")
+		)
+		(pin "19"
+			(uuid "b17fce64-648e-4af5-9c49-006e0e136e83")
+		)
+		(pin "37"
+			(uuid "7776fbeb-4ea8-4970-8908-b9fb9a3c7b31")
+		)
+		(pin "40"
+			(uuid "942fd5cb-bb62-4942-bafc-5124630b5cc2")
+		)
+		(pin "38"
+			(uuid "bc714bae-2a27-4b02-9f14-d135b8b5af6c")
+		)
+		(pin "39"
+			(uuid "3964882c-5fd9-4e8d-8d17-2cc2c9db67d4")
+		)
+		(pin "29"
+			(uuid "1047560d-3a04-4898-80c4-13c21f73ffd1")
+		)
+		(pin "28"
+			(uuid "bf122db9-c817-4869-a24e-5561b5e02c6c")
+		)
+		(pin "31"
+			(uuid "5b426702-ced3-4b6a-8bb5-07ef2a2fc950")
+		)
+		(pin "33"
+			(uuid "ba8da3ab-7b96-4ab3-94a9-914658fd0ee4")
+		)
+		(pin "32"
+			(uuid "8aa547cd-bf57-4713-b331-b4d428fd5e8b")
+		)
+		(pin "30"
+			(uuid "c5a978a7-2b94-45fb-9aaa-bb9db31d0e8a")
+		)
+		(pin "7"
+			(uuid "c3170409-0797-44b0-9893-6e7669efce5d")
+		)
+		(pin "36"
+			(uuid "84e62515-c424-47b8-b962-df6e60d13b36")
+		)
+		(pin "12"
+			(uuid "93518fee-cf21-446a-98c3-91cf6d37f625")
+		)
+		(pin "34"
+			(uuid "b86fc020-12d8-41c7-b72f-e13618b6324f")
+		)
+		(pin "35"
+			(uuid "88e66e86-5d8a-4475-a880-10a8a1534505")
+		)
+		(pin "10"
+			(uuid "b074bbfa-0446-417b-9070-6427a4c0e8ee")
+		)
+		(pin "27"
+			(uuid "889b1a91-cd97-4508-b718-5d70fb400e6f")
+		)
+		(pin "25"
+			(uuid "71985797-0a23-4e7b-8189-5b4dcd64cf96")
+		)
+		(pin "26"
+			(uuid "db91877c-5171-40bf-b5e6-5641f880c927")
+		)
+		(pin "D1"
+			(uuid "6364b464-7b8e-4b4b-bc88-fbbeda51457d")
+		)
+		(pin "D2"
+			(uuid "91efce0e-d4fc-4f0e-b836-3340f7f5cad8")
+		)
+		(instances
+			(project "rpi-pico-pio-tester-hw"
+				(path "/82e98b6c-2452-4651-8f74-cf14c3f4684c"
+					(reference "A2")
 					(unit 1)
 				)
 			)
