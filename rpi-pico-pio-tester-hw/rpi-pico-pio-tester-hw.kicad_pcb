@@ -83,9 +83,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fabrication/")
 		)
 	)
 	(footprint "Module:RaspberryPi_Pico_Common_THT"
@@ -6573,7 +6573,7 @@
 	)
 	(gr_rect
 		(start 72 30.5)
-		(end 154.55 148.7)
+		(end 155 148.5)
 		(stroke
 			(width 0.05)
 			(type default)
